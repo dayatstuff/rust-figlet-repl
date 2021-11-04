@@ -1,9 +1,10 @@
 use figlet_rs::FIGfont;
 use std::io::{self, Write};
 fn main() {
-    let mut input = String::new();
+    
     loop {
-        input = String::from("");
+        let mut input = String::new();
+        // input = String::from("");
         print!("Your awesome banner > ");
         io::stdout().flush().unwrap();
         
